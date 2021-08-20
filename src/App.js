@@ -146,8 +146,8 @@ class App extends Component {
         </section>
         <div>
           <div className="pricefinal">
-            <h2>Total</h2>
             <button onClick={this.DeleteAll}>Limpar tudo</button>
+            <h2>Total</h2>
             <h2>
               {this.state.caradd
                 .reduce((a, b) => a + b.preço, 0)
